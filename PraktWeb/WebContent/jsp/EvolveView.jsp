@@ -34,9 +34,9 @@
 			<li> <a class=innersections href="">ABOUT US </a></li>
 		</ul>
 		<div class="box">
-			<form action="" class="boxes">
-					<input class="box1" type="text" name="type" value="type" placeholder="Search..." /> 
-					<input class="box2" type="submit" name="search" value="search" /> 
+			<form action="">
+					<input class="box1" type="text" name="type" value="" placeholder="Type..." /> 
+					<input class="box2" type="submit" name="search" value="Search" /> 
 			</form> 
 		</div>
 		
