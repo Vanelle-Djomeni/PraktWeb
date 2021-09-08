@@ -1,1 +1,115 @@
 @charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+div.header{
+	width: 100%;
+	height:100px;
+	display: block;
+	background-color: #e7e6a9;
+}
+
+div.innerheader{
+	width: 800px;
+	height:100%;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+div.logo{
+	height: 100%;
+	float: left;
+	display:table;
+	
+}
+
+h2.evolvelogo {
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	font-size: 32px;
+}
+
+ul.navigation {
+	float: right;
+	height: 100%;
+}
+
+a.navigations {
+	height: 100%;
+	display:table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	
+}
+
+li{
+	height: 100%;
+	display: table;
+	float: left;
+	font-size: 16 px;
+	padding: 0px 20px;
+}
+
+div.section{
+	width: 100%;
+	height:80px;
+	display: block;
+	
+}
+
+ul.innersection {
+	float:left;
+	height: 100%;
+}
+
+a.innersections {
+	height: 100%;
+	display:table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	
+}
+
+div.box{
+	float: right;
+	height: 100%;
+	
+}
+
+input.box1 {
+	vertical-align: middle;
+	padding: 30px;
+}
+
+div.row{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	background-size: contain;
+	background-image:url("../img/20210908_163740518_iOS.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.text-main{
+	text-align: left;
+}
+
+div.img-main{
+	display: inline;
+	align-items: center;
+	justify-content:center;
+	height: 30vh;
+	max-width: 100%;
+}
+
+
+
