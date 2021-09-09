@@ -25,6 +25,7 @@
 </div>
 <!-- Header -->
 
+<!-- Section -->
 <div class="section">
 		<ul class="innersection">
 	    	<li> <a class=innersections href="">HOME </a></li>
@@ -41,15 +42,72 @@
 		</div>
 		
 </div>
-<br>
-<div class="row">
-	<div >
-		<h4 class="text-main">SUMMER MUSE FOREVER</h4>
-		<p>Shop looks styled by your favorite influencer</p>
-	</div>
-	<div class="img-main">
+<!-- Section -->
+
+<!-- Main -->
+<div class="main">
+	<div class="row">
+		<div class="text-main">
+			<h4 class="text-1">SUMMER MUSE FOREVER</h4>
+			<p class="text-2">Shop looks styled by your favorite influencer</p>
+			<a href="" class="explore"> Explore Now </a>
+		</div>
 	</div>
 </div>
+<!-- Main -->
+
+<!-- Featured Categories -->
+<div class="categories">
+	<div>
+		<h2 class="text-3" >SHOP BY CATEGORY</h2>
+	</div>
+	<div class="rows">
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5206.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5211.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5220.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5240.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5326.jpg">
+		</div>
+	</div>
+</div>
+<br>
+<!-- Featured Categories -->
+
+<!-- New Arrivals -->
+<div class="categories">
+	<div>
+		<h2 class="text-3" >NEW ARRIVALS</h2>
+	</div>
+	<div class="rows">
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5200.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5219.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5225.jpg">
+		</div>
+		<div class="items">
+			<img class="image" alt="" src="../img/IMG_5229.jpg">
+		</div>
+		<div class="items">
+			<a href="" class="view"> View more... </a>
+		</div>
+	</div>
+</div>
+<br>
+
+<div></div>
 
 <div>
 			<select name="Currency" >
