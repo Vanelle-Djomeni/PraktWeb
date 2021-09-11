@@ -193,6 +193,10 @@ h2.text-3 {
 
 }
 
+@media only screen and (min-width: 768px){
+	
+}
+
 a.view{
 	vertical-align:text-bottom;
 	display: inline-block;
