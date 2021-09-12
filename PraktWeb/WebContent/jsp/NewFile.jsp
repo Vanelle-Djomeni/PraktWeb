@@ -187,8 +187,46 @@
 				</div>
 		</div>
 	</div>
-
-
+<!-- Footer -->
+<div class="footer">
+	<div class="footer-row">
+		<div class="first-colonn">
+			<h3> Download our app</h3>
+			<p> Download App for Android and IOS mobile Phone </p>
+		</div>
+		<div class="second-colonn">
+			<h3>Get Help</h3>
+			<ul class="links">
+				<li> <a class=all-links href="">Track Order</a></li>
+				<li> <a class=all-links href="">Help Center</a></li>
+				<li> <a class=all-links href="">Return Policy</a></li>
+				<li> <a class=all-links href="">Shipping Info</a></li>
+				<li> <a class=all-links href="">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="third-colonn">
+			<h3>Company</h3>
+			<ul class="links">
+				<li> <a class=all-links href="">Careers</a></li>
+				<li> <a class=all-links href="">About Us</a></li>
+				<li> <a class=all-links href="">Want to collab?</a></li>
+			</ul>
+		</div>
+		<div class="fouth-colonn">
+			<h3> Sign up for Discounts</h3>
+			<div class="box">
+				<form action="">
+					<input class="box3" type="text" name="type" value="" placeholder="Email Address" /> 
+					<input class="box4" type="submit" name="search" value="Sign Up" /> 
+				</form> 
+			</div>
+			<p>By signing up for email, you agree to Evolve's <a> Term of Services </a> and <a> Privacy Policy</a></p>
+		</div>
+	</div>
+	<div>
+		<p>Copyright © 2021 Evolve, LLC All Rights Reserved </p>
+	</div>
+</div>
 
 </body>
 </html>
