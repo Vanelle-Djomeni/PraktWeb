@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="utf-8">
+<title>Evolve</title>
 <meta name="viewport" content="width=device-width , initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="../css/Probe.css" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
@@ -13,40 +13,51 @@
 <body>
 
 <!-- Header -->
-
 <div class="header">
-	
 	<div class="innerheader">
  		<div class="logo">
  			<h2 class= evolvelogo> <a href="">EVOLVE</a></h2>
  		</div>
 		<ul class="navigation">
-			<li> <a class=navigations href=""><img alt="" src="../img/R (1).png" width="30px" height="30px"></a></li>
-			<li> <a class=navigations href=""><img alt="" src="../img/2694572.png" width="30px" height="30px">  </a></li>
+			<li class="list-img" > <a class="icon-img" href=""><img alt="" src="../img/R (1).png" width="30px" height="30px"></a></li>
+			<li class="list-img"> <a class="icon-img" href=""><img alt="" src="../img/2694572.png" width="30px" height="30px">  </a></li>
 		</ul>
+		<div class="ahka">
+		<div class="list">
+			<select name="currency" class="currencies">
+     					<option value="bwi420" selected>USD</option>
+     					<option value="bwi352">EUR </option>
+	     				<option value="bwi520">NGN</option>
+	     				<option value="bwi511">CAD</option>
+	     				<option value="bwi511">AED</option>
+	     				<option value="bwi511">GBP</option>
+			</select>
+		</div>
+		</div>
  	</div >
 </div>
 
 <!-- Section -->
 <div class="section">
-	  <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-		<!--  <ul class="innersection">
+	<input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        	<i class="fas fa-bars" id="btn"></i>
+    </label>
+	<div class="sidebar">
+		<ul class="innersection">
 	    	<li> <a class=innersections href="">HOME </a></li>
 			<li> <a class=innersections href="">PRODUCTS </a></li>
 			<li> <a class=innersections href="">CATEGORIES </a></li>
 			<li> <a class=innersections href="">SALES </a></li>
-			<li> <a class=innersections href="">ABOUT US </a></li>
-		</ul> -->
-		<div class="box">
-			<form action="">
-					<input class="box1" type="text" name="type" value="" placeholder="Type..." /> 
-					<input class="box2" type="submit" name="search" value="Search" /> 
-			</form> 
-		</div>
-		
+			<li> <a class=innersections href="">ABOUT US</a></li>
+		</ul>
+	</div>
+	<div class="box">
+		<form action="">
+			<input class="box1" type="text" name="type" value="" placeholder="Type..." /> 
+			<input class="box2" type="submit" name="search" value="Search" /> 
+		</form> 
+	</div>	
 </div>
 
 <!-- Main -->
@@ -116,7 +127,7 @@
 	</div>
 </div>
 <!-- Best Sellers -->
-<div class="bests-ellers">
+<div class="bests-sellers">
 	<div class="title-sellers">
 		<h2>BEST SELLERS</h2>
 	</div>
@@ -161,40 +172,43 @@
 </div>
 <!-- Exlusive  -->
 <div class="exclusive">
-	<div>
-		<p class="text-exclu">Buy now. Pay later. With <img class="klarna-logo" alt="" src="../img/klarna_svg_logo.svg"></p>
-		<p class="text-exclu">Pay in 4 interest-free installments</p>
+	<div class="exclu-container">
+		<div class="text-exclu">
+			<p>Buy now. Pay later. With <img class="klarna-logo" alt="" src="../img/klarna_svg_logo.svg"></p>
+			<p>Pay in 4 interest-free installments</p>
+		</div>
 	</div>
 </div>
 
 <!-- Payment methods  -->
 	<div class="payment">
 		<div class="payment-row">
-				<div>
-					<img class="payment-logo" src="../img/2766961.png">
-				</div>
-				<div>
-					<img class="payment-logo" src="../img/R.png">
-				</div>
-				<div>
-					<img class="payment-logo" src="../img/paypal-784404_960_720.png">
-				</div>
-				<div>
-					<img class="payment-logo" src="../img/apple-pay.png">
-				</div>
-				<div>
-					<img class="payment-logo" src="../img/klarna_svg_logo.svg">
-				</div>
+			<div>
+				<img class="payment-logo" src="../img/2766961.png">
+			</div>
+			<div>
+				<img class="payment-logo" src="../img/R.png">
+			</div>
+			<div>
+				<img class="payment-logo" src="../img/paypal-784404_960_720.png">
+			</div>
+			<div>
+				<img class="payment-logo" src="../img/apple-pay.png">
+			</div>
+			<div>
+				<img class="payment-logo" src="../img/klarna_svg_logo.svg">
+			</div>
 		</div>
 	</div>
 <!-- Footer -->
 <div class="footer">
 	<div class="footer-row">
-		<div class="first-colonn">
+		<div class="colonn">
 			<h3> Download our app</h3>
-			<p> Download App for Android and IOS mobile Phone </p>
+			<img class="payment-logo" alt="" src="../img/android-logo.png">
+			<img class="payment-logo" alt="" src="../img/apple-logo.png">
 		</div>
-		<div class="second-colonn">
+		<div class="colonn">
 			<h3>Get Help</h3>
 			<ul class="links">
 				<li> <a class=all-links href="">Track Order</a></li>
@@ -204,7 +218,7 @@
 				<li> <a class=all-links href="">Contact Us</a></li>
 			</ul>
 		</div>
-		<div class="third-colonn">
+		<div class="colonn">
 			<h3>Company</h3>
 			<ul class="links">
 				<li> <a class=all-links href="">Careers</a></li>
@@ -212,19 +226,18 @@
 				<li> <a class=all-links href="">Want to collab?</a></li>
 			</ul>
 		</div>
-		<div class="fouth-colonn">
+		<div class="colonn">
 			<h3> Sign up for Discounts</h3>
-			<div class="box">
-				<form action="">
+			<div class="box-footer">
+				<p>By signing up for email, you agree to Evolve's <a href=""> Term of Services </a > and <a href=""> Privacy Policy</a></p>
+				<form action="" class="boxes">
 					<input class="box3" type="text" name="type" value="" placeholder="Email Address" /> 
 					<input class="box4" type="submit" name="search" value="Sign Up" /> 
 				</form> 
 			</div>
-			<p>By signing up for email, you agree to Evolve's <a> Term of Services </a> and <a> Privacy Policy</a></p>
 		</div>
-	</div>
-	<div>
-		<p>Copyright © 2021 Evolve, LLC All Rights Reserved </p>
+		<hr>
+		<p class="copyright">Copyright 2021 Evolve, LLC All Rights Reserved </p>
 	</div>
 </div>
 
