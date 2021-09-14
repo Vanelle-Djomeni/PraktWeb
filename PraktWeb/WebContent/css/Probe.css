@@ -12,6 +12,7 @@ div.header{
 	display: block;
 	background-color: #e7e6a9;
 }
+
 div.innerheader{
 	width:300px;
 	height:100%;
@@ -93,10 +94,6 @@ input#check{
 }
 i#btn {
 	position: absolute;
-	cursor: pointer;
-}
-
-i#btn{
 	display: block;
 	font-size: 30px;
 	color: white;
@@ -135,8 +132,7 @@ div.box{
 	float: right;
 	height:100%;
 	padding-right: 30px;
-	margin: 20px;
-	vertical-align: middle;
+	margin-top: 20px;
 }
 
 input.box1{
@@ -146,7 +142,7 @@ input.box1{
 	border-radius: 25px 0 0 25px;
 	width: 100px;
 	height: 20px;
-	vertical-align: middle;
+	
 }
 
 input.box2{
@@ -446,7 +442,332 @@ p.copyright{
 	text-align: center;
 }
 
+/* media --------------------------------------------------------*/
+/* media --------------------------------------------------------*/
 
+@media only screen and (min-width: 768px){
+
+/*Header*/
+div.innerheader{
+	width:500px;
+	height:100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*Section*/
+div.section{
+	width: 100%;
+	height:70px;
+	display: block;
+	background-color: #000000;
+}
+
+input.box1{
+	border: none;
+	outline: none;
+	padding: 0 25px;
+	border-radius: 25px 0 0 25px;
+	width: 120px;
+	height: 28px;
+}
+
+input.box2{
+	border: none;
+	outline: none;
+	text-align: center;
+	border-radius: 0 25px 25px 0;
+	width: 100px;
+	height: 28px;
+	background:#e7e6a9;
+	cursor: pointer;
+}
+
+div.box2:hover{
+	color: white;
+}
+
+/*Main*/
+div.main{
+	width: 100%;
+	height:50vh;
+	display: block;
+	background-color: #faffdd;
+}
+div.row{
+	height: 40vh;
+	padding: 50px;
+	background-size: cover;
+	background-image:url("../img/75F57294-BEB0-4EF6-A19A-9E4B47B92BCD.JPG");
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+div.text-main{
+	text-align: center;
+	float: inherit;
+	position:relative;
+	top: 55%;
+	color: white;
+}
+
+h4.text-1 {
+	line-height: 30px;
+	font-size: 30px;
+	font-family: 'Montserrat';
+}
+
+p.text-2 {
+	font-family: 'Montserrat';
+	font-size: 20px;
+}
+
+a.explore{
+	display: inline-block;
+	background: #ff8000;
+	color: #ffffff;
+	padding: 8px 20px;
+	margin: 5px 0;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+/*Featured Categories*/
+div.categories{
+	margin: 20px auto;
+	height: 40vh; 
+	width: 100%;
+}
+
+div.items{
+	float:left;
+	margin-left: 10px;
+}
+
+img.image{
+	height: 20vh;
+	width: 100%;
+}
+
+div.rows{
+	margin-left: 20px;
+}
+
+div.title{	
+	width: 100%;
+	height: 5vh; 
+	text-align: center;
+}
+
+a.view{
+	display:block;
+	background: #ff8000;
+	color: #ffffff;
+	padding: 8px 30px;
+	margin-top: 30px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+/*New Arrivals*/
+div.arrival{
+	margin-top: 10px;
+	height: 40vh; 
+	width: 100%;
+	background-color: #e7e6a9;
+}
+
+div.arrival-rows{
+	margin-left: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+div.arrival-title{	
+	padding-top: 10px;
+	width: 100%;
+	height: 5vh; 
+	text-align: center;
+}
+/*New Collection*/
+div.newcoll{
+	width: 100%;
+	height:40vh;
+	display: block;
+}
+div.collrow{
+	padding: 30px;
+	height: 40vh;
+	background-size: cover;
+	background-image:url("../img/94E86046-DE81-439E-931E-CA5C99C1A828.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+div.colltext{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translate Y(-50%);
+}
+
+h4.text-1 {
+	line-height: 30px;
+	font-size: 15px;
+	font-family: 'Montserrat';
+}
+
+p.text-2 {
+	font-family: 'Montserrat';
+	font-size: 15px;
+	vertical-align: bottom;
+}
+
+/*Best Sellers*/
+div.bests-sellers{
+	padding-top: 40px;
+	height: 30vh; 
+	width: 100%;
+}
+
+div.best{
+	float:left;
+	margin-left: 10px;
+	transition: transform 0.5s;
+}
+
+img.best-image{
+	height: 20vh;
+	width: 100%;
+}
+
+div.rows-sellers{
+	margin-left: 20px;
+}
+
+div.title-sellers{	
+	margin-top: 30px;
+	width: 100%;
+	height: 5vh; 
+	text-align: center;
+}
+
+div.rating {
+	color: #ff0000;
+}
+
+div.best:hover{
+	transform: translateY(-5px);
+}
+
+/* Exclusive */
+div.exclusive{
+	margin-top: 60px;
+	height: 15vh; 
+	width: 100%;
+	background: black;
+	display: block;
+
+}
+
+div.exclu-container{
+	height: 100%;
+	width: 100%;
+	float: left;
+	display:table;
+}
+
+img.klarna-logo{
+	vertical-align: text-bottom;
+	width: 60px;
+	height: 40px;
+	padding-top: 20px;
+	
+}
+
+div.text-exclu{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	height: 100%;
+	display: table-cell;
+
+}
+
+/* Payment methods */
+div.payment{
+	margin-top: 10px;
+	height: 10vh; 
+	width: 100%;
+}
+
+img.payment-logo{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 10px;
+}
+
+/* Footer */
+div.footer{
+	width: 100%;
+	height:50vh;
+	display: block;
+	background-color: #ffffff;
+}
+
+div.footer-row{
+	height: 40vh;
+	width: 100%;
+	
+}
+ul.links {
+	display: list-item;
+}
+
+div.colonn {
+	display: table;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+div.box-footer{
+	height:100%;
+	margin-left: 10px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+input.box3{
+	border: solid 1px black;
+	padding: 0 25px;
+	width: 100px;
+	height: 20px;
+}
+form.boxes{
+	margin-top: 10px;
+}
+
+input.box4{
+	border: solid 1px black;
+	padding: 0 15px;
+	width: 80px;
+	height: 20px;
+	background:#000000;
+	color: white;
+	cursor: pointer;
+}
+hr {
+	color: black;
+}
+p.copyright{
+	margin-left: 10px;
+	text-align: center;
+}
+}
 
 @media only screen and (min-width: 768px){
 	

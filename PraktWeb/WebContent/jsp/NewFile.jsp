@@ -23,16 +23,16 @@
 			<li class="list-img"> <a class="icon-img" href=""><img alt="" src="../img/2694572.png" width="30px" height="30px">  </a></li>
 		</ul>
 		<div class="ahka">
-		<div class="list">
-			<select name="currency" class="currencies">
+			<div class="list">
+				<select name="currency" class="currencies">
      					<option value="bwi420" selected>USD</option>
      					<option value="bwi352">EUR </option>
 	     				<option value="bwi520">NGN</option>
 	     				<option value="bwi511">CAD</option>
 	     				<option value="bwi511">AED</option>
 	     				<option value="bwi511">GBP</option>
-			</select>
-		</div>
+				</select>
+			</div>
 		</div>
  	</div >
 </div>
