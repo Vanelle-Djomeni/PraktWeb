@@ -4,22 +4,20 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Evolve Register</title>
 <meta name="viewport" content="width=device-width , initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="../css/Dresses.css" />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../css/EvolveLogin.css" />
 <script src="https://kit.fontawesome.com/d8f3545429.js" ></script>
 </head>
 <body>
-
 <!-- Header -->
 <div class="header">
 	<div class="innerheader">
  		<div class="logo">
- 			<h2 class= evolvelogo> <a href="">EVOLVE</a></h2>
+ 			<h2 class= evolvelogo> <a href="../jsp/EvolveView.jsp">EVOLVE</a></h2>
  		</div>
 		<ul class="navigation">
-			<li class="list-img" > <a class="icon-img" href=""><img alt="" src="../img/R (1).png" width="30px" height="30px"></a></li>
+			<li class="list-img" > <a class="icon-img" href="../jsp/EvolveLoginView.jsp"><img alt="" src="../img/R (1).png" width="30px" height="30px"></a></li>
 			<li class="list-img"> <a class="icon-img" href=""><img alt="" src="../img/2694572.png" width="30px" height="30px">  </a></li>
 		</ul>
 		<div class="ahka">
@@ -45,9 +43,8 @@
     </label>
 	<div class="sidebar">
 		<ul class="innersection">
-	    	<li> <a class=innersections href=""> HOME </a></li>
-			<li> <a class=innersections href=""> PRODUCTS </a></li>
-			<li> <a class=innersections href=""> CATEGORIES </a></li>
+	    	<li> <a class=innersections href="../jsp/EvolveView.jsp"> HOME </a></li>
+			<li> <a class=innersections href="../jsp/EvolveCategoriesView.jsp"> CATEGORIES </a></li>
 			<li> <a class=innersections href=""> SALES </a></li>
 			<li> <a class=innersections href=""> ABOUT US</a></li>
 		</ul>
@@ -60,49 +57,34 @@
 	</div>	
 </div>
 
-<!--  Main -->
-<div>
-	<div>
-		<p>DRESSES</p>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
-		<div>
-			<img alt="" src="">
-		</div>
+<!-- Register -->
+<div class="registerBx">
+	<div class="registerRows">
+	<form action="./Register hereAppl.jsp" method="get">
+     	<h2>REGISTER HERE</h2>
+        <div class="container">
+        	<span>Username</span><br>
+        	<input class="register-input" type="text" name="">
+        </div>
+        <div class="container">
+            <span>Email</span><br>
+           	<input class="register-input" type="email" name="">
+        </div>
+        <div class="container">
+         	<span>Password</span><br>
+         	<input class="register-input" type="password" name="">
+        </div>
+        <div class="container">
+             <span>Confirm Password</span><br>
+             <input class="register-input" type="password" name="">
+        </div>
+        <div>
+             <input class="submitBx" type="submit" value="Register" name="">
+        </div><br>
+        <p class="signup">Already have an account? <a href="../jsp/EvolveLoginView.jsp">Sign in</a></p>
+  	</form>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 <!-- Footer -->
 <div class="footer">
@@ -141,8 +123,9 @@
 			</div>
 		</div>
 	</div>
+	<br>
 	<hr>
-		<p class="copyright">Copyright 2021 Evolve, LLC All Rights Reserved </p>
+	<p class="copyright">Copyright 2021 Evolve, LLC All Rights Reserved </p>
 </div>
 
 </body>

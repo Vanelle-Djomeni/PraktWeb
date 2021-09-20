@@ -3,16 +3,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Evolve Home</title>
+<meta charset="ISO-8859-1">
+<title>Evolve Bottoms</title>
 <meta name="viewport" content="width=device-width , initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="../css/Evolve.css" />
+<link rel="stylesheet" type="text/css" href="../css/Dresses.css" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/d8f3545429.js" ></script>
 </head>
 <body>
-
-<!-- Header -->
+	<!-- Header -->
 <div class="header">
 	<div class="innerheader">
  		<div class="logo">
@@ -59,124 +58,50 @@
 	</div>	
 </div>
 
-<!-- Main -->
+<!--  Main -->
 <div class="main">
-	<div class="row">
-		<div class="text-main">
-			<h4 class="text-1">SUMMER MUSE FOREVER</h4>
-			<p class="text-2">Shop looks styled by your favorite influencer</p>
-			<a href="" class="explore"> Explore Now </a>
+	<div class="main-rows">
+		<p class="name">Bottoms</p>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5326.jpg">
+			<p class="best-text"><a>High Waist Skinny <br> Jeans</a></p>
+			<p class="price">19,00$</p>
 		</div>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5543.jpg">
+			<p class="best-text"><a>Solid High Waist <br> Pleated Skirt</a></p>
+			<p class="price">14,59$</p>
+		</div>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5548.jpg">
+			<p class="best-text"><a>Zipper Back Wrap <br> Knot skirt</a></p>
+			<p class="price">15,99$</p>
+		</div>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5550.jpg">
+			<p class="best-text"><a>Draped Asymmetrical <br> Trim Allover Skirt</a></p>
+			<p class="price">13,45$</p>
+		</div>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5551.jpg">
+			<p class="best-text"><a> Slant Pockets Drawstring <br>Waist Sweatpants</a></p>
+			<p class="price">14,00$</p>
+		</div>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5553.jpg">
+			<p class="best-text"><a>High Waist Split <br> Hem Jeans</a></p>
+			<p class="price">25,00$</p>
+		</div>
+		<div class= "items">
+			<img class= "item" alt="" src="../img/IMG_5554.jpg">
+			<p class="best-text"><a>High Waist Pocket <br>Leather Pants</a></p>
+			<p class="price">20,00$</p>
+		</div>
+		
 	</div>
 </div>
 
-
-<!-- New Arrivals -->
-<div class="arrival">
-	<div class="arrival-title">
-		<h2>NEW ARRIVALS</h2>
-	</div>
-	<div class="arrival-rows">
-		<div class="items">
-			<img class="image" alt="" src="../img/IMG_5219.jpg">
-		</div>
-		<div class="items">
-			<img class="image" alt="" src="../img/IMG_5229.jpg">
-		</div>
-		<div class="items">
-			<img class="image" alt="" src="../img/IMG_5225.jpg">
-		</div>
-		<div class="items">
-			<a href="" class="view"> View more... </a>
-		</div>
-	</div>
-</div>
-<!-- NEW COLLECTION -->
-
-<div class="newcoll">
-	<div class="collrow">
-		<div class="colltext">
-			<h4 class="text-3">SHOP OUR NEW COLLECTION</h4>
-			<a href="" class="explore"> Shop now </a>
-		</div>
-	</div>
-</div>
-<!-- Best Sellers -->
-<div class="bests-sellers">
-	<div class="title-sellers">
-		<h2>BEST SELLERS</h2>
-	</div>
-	<div class="rows-sellers">
-		<div class="best">
-			<img class="best-image" alt="" src="../img/IMG_5529.jpg">
-			<h6 class="best-text"><a>Orange Toe Loop <br> Stilletto Sandals</a></h6>
-			<div class="rating">
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star-half-alt"></i>
-			</div>
-			<p class="price">20,75$</p>
-		</div>
-		<div class="best">
-			<img class="best-image" alt="" src="../img/IMG_5199.jpg">
-			<h6 class="best-text"><a>Shape pink mesh <br> midi dress</a></h6>
-			<div class="rating">
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star-half-alt"></i>
-			</div>
-			<p class="price">21,00$</p>
-		</div>
-		<div class="best">
-			<img class="best-image" alt="" src="../img/IMG_5202.jpg">
-			<h6 class="best-text"><a>Orange Bodycon dress</a></h6>
-			<div class="rating">
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="fas fa-star"></i>
-				<i class="far fa-star"></i>
-			</div>
-			<p class="price">17,99$</p>
-		</div>
-	</div>
-</div>
-<!-- Exlusive  -->
-<div class="exclusive">
-	<div class="exclu-container">
-		<div class="text-exclu">
-			<p class="text">Buy now. Pay later. With <img class="klarna-logo" alt="" src="../img/klarna_svg_logo.svg"></p>
-			<p class="text">Pay in 4 interest-free installments</p>
-		</div>
-	</div>
-</div>
-
-<!-- Payment methods  -->
-	<div class="payment">
-		<div class="payment-row">
-			<div>
-				<img class="payment-logo" src="../img/2766961.png">
-			</div>
-			<div>
-				<img class="payment-logo" src="../img/R.png">
-			</div>
-			<div>
-				<img class="payment-logo" src="../img/paypal-784404_960_720.png">
-			</div>
-			<div>
-				<img class="payment-logo" src="../img/apple-pay.png">
-			</div>
-			<div>
-				<img class="payment-logo" src="../img/klarna_svg_logo.svg">
-			</div>
-		</div>
-	</div>
 <br>
-
 <!-- Footer -->
 <div class="footer">
 	<div class="footer-row">
@@ -217,6 +142,5 @@
 	<hr>
 		<p class="copyright">Copyright 2021 Evolve, LLC All Rights Reserved </p>
 </div>
-
 </body>
 </html>

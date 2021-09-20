@@ -161,43 +161,32 @@ div.box2:hover{
 	color: white;
 }
 
-
-/* Main */
-div.main {
+/*Featured Categories*/
+div.categories{
+	margin-top: 20px;
+	height: 55vh; 
 	width: 100%;
-	height: 190vh;
-	display: grid;
-}
-
-div.main-rows {
-	height:100%;
-	margin-left: 15px;
-}
-
-p.name{
-	font-size: 30px;
-	text-decoration: underline;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 20px;
 }
 
 div.items{
-	float: left;
-    flex-direction: row;
+	float:left;
+	margin-left: 10px;
 	margin-bottom: 10px;
+}
+
+img.image{
+	height: 20vh;
+	width: 100%;
+}
+
+div.rows{
 	margin-left: 20px;
 }
 
-
-img.item{
-	width: inherit;
-	height: 250px;
-}
-
-h6.best-text{
-	line-height: 20px;
-	font-size: 18px;
+div.title{	
+	width: 100%;
+	height: 5vh; 
+	text-align: center;
 }
 
 /* Footer */
@@ -263,7 +252,6 @@ hr {
 p.copyright{
 	margin-left: 10px;
 	text-align: center;
-	align-items: baseline;  
 }
 
 /* media --------------------------------------------------------*/
@@ -274,6 +262,7 @@ p.copyright{
 div.innerheader{
 	width:500px;
 }
+
 
 /*Section*/
 div.section{
@@ -293,29 +282,21 @@ input.box2{
 	text-align: center;
 	width: 100px;
 	height: 28px;
+
 }
 
-/* Main */
-div.main {
-	height: 130vh;
+/*Featured Categories*/
+div.categories{
+	height: 60vh; 
 }
 
-div.main-rows {
-	margin-left: 18px;
+img.image{
+	height: 22vh;
 }
 
-p.name{
-	font-size: 50px;
-	margin-bottom: 25px;
-}
-
-img.item{
-	height: 300px;
-}
-
-p.best-text{
-	line-height: 27px;
-	font-size: 25px;
+div.rows{
+	margin-left: 35px;
+	margin-right: 35px;
 }
 
 /* Footer */
@@ -364,7 +345,6 @@ input.box4{
 
 p.copyright{
 	font-size: 25px;
-	align-items: baseline;   
 }
 }
 
@@ -425,29 +405,23 @@ input.box2{
 	width: 110px;
 }
 
-/* Main */
-div.main {
-	height: 130vh;
+/*Featured Categories*/
+div.categories{
+	height: 41vh; 
 }
 
-div.main-rows {
-	margin-left: 18px;
+img.image{
+	height: 28vh;
 }
 
-p.name{
-	font-size: 50px;
-	margin-bottom: 25px;
+div.items{
+	margin-left: 20px;
 }
 
-img.item{
-	height: 300px;
+div.rows{
+	width: 900px;
+	margin: 0 auto;
 }
-
-p.best-text{
-	line-height: 27px;
-	font-size: 25px;
-}
-
 
 /* Footer */
 div.footer-row{
@@ -478,9 +452,5 @@ div.colonn {
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
+}
 
-p.copyright{
-	font-size: 25px;
-	vertical-align: text-bottom;
-}
-}

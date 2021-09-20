@@ -1,11 +1,12 @@
 @charset "ISO-8859-1";
 
 *{
-	margin: 0;
-	padding: 0;
+	margin:0;
+	padding:0;
 	list-style: none;
 	text-decoration: none;
 }
+
 /*Header*/
 div.header{
 	width: 100%;
@@ -161,49 +162,118 @@ div.box2:hover{
 	color: white;
 }
 
-
-/* Main */
-div.main {
+/*Login*/
+div.contentBx{
+	display: block;
 	width: 100%;
-	height: 190vh;
-	display: grid;
+	height: 78vh;	
+}
+div.formBx{
+	width: 300px;
+	height: 78vh;
+	margin: 0 auto;
+	display: block;
 }
 
-div.main-rows {
+div.registerBx{
+	width: 100%;
+	height: 82vh;
+	display: block;
+}
+
+div.registerRows{
+	width: 300px;
 	height:100%;
-	margin-left: 15px;
+	display: block;
+	margin: 0 auto;
+	
 }
-
-p.name{
-	font-size: 30px;
-	text-decoration: underline;
-	font-weight: bold;
-	text-align: center;
+div.inputBx {
 	margin-bottom: 20px;
 }
 
-div.items{
-	float: left;
-    flex-direction: row;
+input.submitBx{
+	background: #ff4584; 
+	color:#fff;
+	outline:none;
+	border:none;
+	cursor: pointer;
+	width:200px;
+	text-align:center;
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+input.register-input{
+	width: 200px;
+	padding: 10px 20px;
+	outline: none;
+	border: 1px solid #607d8b;
+	font-size: 16px;
+	border-radius: 30px;
+}
+input.inputBx {
+	width: 200px;
+	padding: 10px 20px;
+	outline: none;
+	border: 1px solid #607d8b;
+	font-size: 16px;
+	border-radius: 30px;
+	
+}
+
+div.container{
+	height: 10vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+span{
+	font-size:20px;
 	margin-bottom: 10px;
-	margin-left: 20px;
+	display: inline-block;
+	font-weight: bold;
 }
 
-
-img.item{
-	width: inherit;
-	height: 250px;
+div.remember{
+	font-size: 14px;
 }
 
-h6.best-text{
-	line-height: 20px;
-	font-size: 18px;
+h3.logo{
+	text-align: center;
+	margin: 30px 0 10px;
+}
+h2{
+	text-align: center;
+	margin: 20px 0 10px;
+	font-size: 30px;
+}
+
+li.logo{
+ width:50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ background: #ffffff;
+ border-radius: 50%;
+ margin: 0 7px;
+ cursor: pointer; 
+}
+
+ul.sci{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+p.signup{
+	font-size: 20px;
 }
 
 /* Footer */
 div.footer{
 	width: 100%;
-	height:50vh;
+	height:60vh;
 	display: block;
 	background-color: #ffffff;
 }
@@ -211,7 +281,6 @@ div.footer{
 div.footer-row{
 	height: 60vh;
 	width: 100%;
-	
 }
 
 
@@ -263,7 +332,6 @@ hr {
 p.copyright{
 	margin-left: 10px;
 	text-align: center;
-	align-items: baseline;  
 }
 
 /* media --------------------------------------------------------*/
@@ -274,6 +342,7 @@ p.copyright{
 div.innerheader{
 	width:500px;
 }
+
 
 /*Section*/
 div.section{
@@ -293,28 +362,53 @@ input.box2{
 	text-align: center;
 	width: 100px;
 	height: 28px;
+
 }
 
-/* Main */
-div.main {
-	height: 130vh;
+/*Login*/
+div.contentBx{
+	height: 65vh;	
+}
+div.formBx{
+	width: 500px;
 }
 
-div.main-rows {
-	margin-left: 18px;
+div.registerBx{
+	height: 72vh;
 }
 
-p.name{
-	font-size: 50px;
-	margin-bottom: 25px;
+div.registerRows{
+	width: 500px;
 }
 
-img.item{
-	height: 300px;
+input.submitBx{
+	width:300px;
 }
 
-p.best-text{
-	line-height: 27px;
+input.register-input{
+	width: 300px;
+}
+
+input.inputBx {
+	width: 300px;
+}
+
+a.forgot{
+	font-size: 21px;
+}
+
+div.remember{
+	font-size: 21px;
+}
+
+h3.logo{
+	text-align: center;
+	margin: 30px 0 10px;
+}
+h2{
+	font-size: 35px;
+}
+p.signup{
 	font-size: 25px;
 }
 
@@ -364,7 +458,6 @@ input.box4{
 
 p.copyright{
 	font-size: 25px;
-	align-items: baseline;   
 }
 }
 
@@ -425,29 +518,17 @@ input.box2{
 	width: 110px;
 }
 
-/* Main */
-div.main {
-	height: 130vh;
+/*Login*/
+div.contentBx{
+	height: 81vh;	
+}
+div.formBx{
+	height: 81vh;
 }
 
-div.main-rows {
-	margin-left: 18px;
+div.registerBx{
+	height: 87vh;
 }
-
-p.name{
-	font-size: 50px;
-	margin-bottom: 25px;
-}
-
-img.item{
-	height: 300px;
-}
-
-p.best-text{
-	line-height: 27px;
-	font-size: 25px;
-}
-
 
 /* Footer */
 div.footer-row{
@@ -478,9 +559,5 @@ div.colonn {
 	margin-bottom: 10px;
 	margin-left: 10px;
 }
+}
 
-p.copyright{
-	font-size: 25px;
-	vertical-align: text-bottom;
-}
-}
