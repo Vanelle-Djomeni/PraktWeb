@@ -33,7 +33,7 @@ public class FanshopBean {
 
 	}
 	
-	public String getHtmlFromArtikel() {
+	/*public String getHtmlFromArtikel() {
 		String html="";
 		
 		for (Artikel myArtikel : this.artikelListe) {
@@ -41,7 +41,7 @@ public class FanshopBean {
 			html +=   myArtikel.toKaestchen() + "<br>";
 		}
 		return html;
-	}
+	}*/
 	
 	public void bestellungSpeichern(String kunde, String[] bestArt) throws SQLException {
 		String sql = "insert into bestellung (kunde) values (?)";

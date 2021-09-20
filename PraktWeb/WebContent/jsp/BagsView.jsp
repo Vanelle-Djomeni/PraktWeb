@@ -64,37 +64,37 @@
 		<p class="name">BAGS</p>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5229.jpg">
-			<p class="best-text"><a>Tan Ruched Mini<br> Grab Bag</a></p>
-			<p class="price">13,50$</p>
+			<p class="best-text"><a>Tan Ruched Bag</a></p>
+			<p class="price">19,50$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5240.jpg">
-			<p class="best-text"><a>Tan Oversized Weave <br> Chain Shoulder Bag </a></p>
-			<p class="price">13,75$</p>
+			<p class="best-text"><a>Tan Oversized Bag </a></p>
+			<p class="price">21,75$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5232.jpg">
-			<p class="best-text"><a>Plain Pattern Satchel <br> Bag</a></p>
+			<p class="best-text"><a>Plain Pattern Bag</a></p>
 			<p class="price">23,99$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5234.jpg">
-			<p class="best-text"><a>White Minimalist  <br> Textured Bag</a></p>
+			<p class="best-text"><a>White Textured Bag</a></p>
 			<p class="price">21,50$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5235.jpg">
-			<p class="best-text"><a>Pink Texture Satchel <br> Bag</a></p>
+			<p class="best-text"><a>Pink Texture Bag</a></p>
 			<p class="price">14,50$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5524.jpg">
-			<p class="best-text"><a>Pink Croc Mini <br> Grab Bag</a></p>
+			<p class="best-text"><a>Pink Croc Bag</a></p>
 			<p class="price">11,75$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5525.jpg">
-			<p class="best-text"><a>Yellow Embossed <br> Baguette Bag</a></p>
+			<p class="best-text"><a>Yellow Embossed Bag</a></p>
 			<p class="price">16,50$</p>
 		</div>
 	</div>

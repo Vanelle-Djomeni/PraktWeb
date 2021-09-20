@@ -14,14 +14,13 @@ public class Artikel {
 		this.preis= preis;
 	}
 	
-	public String toKaestchen() {
+	/*public String toKaestchen() {
 		String html="";
 		html += "<input type='checkbox' name='artikel' value='"+ this.anr +"' />";
 		html += this.aname + ",EUR" + this.preis;
 		html += "<img src='../img/" +  this.anr +  ".jpg'/> ";
-	
 		return html;
-	}
+	}*/
 	
 	public int getAnr() {
 		return anr;

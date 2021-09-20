@@ -64,37 +64,37 @@
 		<p class="name">TOPS</p>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5215.jpg">
-			<p class="best-text"><a>Ribbeb Knit Slim<br> Sweater</a></p>
+			<p class="best-text"><a>Ribbeb Slim Sweater</a></p>
 			<p class="price">14,50$</p>
 		</div>
 		<div class= "items" >
 			<img class= "item" alt="" src="../img/IMG_5219.jpg">
-			<p class="best-text"><a> Khaki Wove Flared</a> <br> Sleeve Blouse</a></p>
+			<p class="best-text"><a> Khaki Sleeve Blouse</a></p>
 			<p class="price">17,50$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5225.jpg">
-			<p class="best-text"><a>Pleated Nude Hem<br> Blouse</a></p>
+			<p class="best-text"><a>Pleated Nude Blouse</a></p>
 			<p class="price">22,00$</p>
 		</div>
 		<div class= "items"> 
 			<img class= "item" alt="" src="../img/IMG_5226.jpg">
-			<p class="best-text"><a href="">Mock Neck Solid <br> Tank Top</a></p>
+			<p class="best-text"><a href="">Mock Tank Top</a></p>
 			<p class="price">10,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5239.jpg">
-			<p class="best-text"><a>Satin Button Up<br> Hem Blouse</a></p>
+			<p class="best-text"><a>Satin Hem Blouse</a></p>
 			<p class="price">15,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5559.jpg">
-			<p class="best-text"><a>Floral Print Self-Tie<br> Wrap Top</a></p>
+			<p class="best-text"><a>Floral Print Top</a></p>
 			<p class="price">13,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5561.jpg">
-			<p class="best-text"><a>Asymmetrical Hem <br> Crop Blouse</a></p>
+			<p class="best-text"><a> Hem Crop Blouse</a></p>
 			<p class="price">17,00$</p>
 		</div>
 	</div>

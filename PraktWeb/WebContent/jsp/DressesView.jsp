@@ -65,37 +65,37 @@
 		<p class="name">DRESSES</p>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5206.jpg">
-			<p class="best-text"><a>Mesh Ruched Sleeve <br> Bodycon Dress</a></p>
+			<p class="best-text"><a>Mesh Bodycon Dress</a></p>
 			<p class="price">27,99$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/20210908_163740518_iOS.png">
-			<p class="best-text"><a>Cargo Oversized Popper <br>Front Dress</a></p>
+			<p class="best-text"><a>Cargo Oversized Dress</a></p>
 			<p class="price">23,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5200.jpg">
-			<p class="best-text"><a>Floral Print Square <br> Shift Dress</a></p>
+			<p class="best-text"><a>Floral Print Dress</a></p>
 			<p class="price">15,00$</p>
 		</div>
 		<div class= "items" >
 			<img class= "item" alt="" src="../img/IMG_5194.jpg">
-			<p class="best-text"><a>White Blazer Button <br> Dress</a></p>
+			<p class="best-text"><a>White Blazer Dress</a></p>
 			<p class="price">30,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5199.jpg">
-			<p class="best-text"><a> Shape Pink <br> Mesh Midi Dress</a></p>
+			<p class="best-text"><a> Shape Pink Dress</a></p>
 			<p class="price">21,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5202.jpg">
-			<p class="best-text"><a> Orange Bodycon <br> Dress</a></p>
+			<p class="best-text"><a> Orange Bodycon Dress</a></p>
 			<p class="price">17,99$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5210.jpg">
-			<p class="best-text"><a>White Anglaise Smock <br> Dress</a></p>
+			<p class="best-text"><a>White Anglaise Dress</a></p>
 			<p class="price">25,00$</p>
 		</div>
 		

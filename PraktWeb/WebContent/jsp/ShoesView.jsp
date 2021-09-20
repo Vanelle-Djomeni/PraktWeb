@@ -64,37 +64,37 @@
 		<p class="name">SHOES</p>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5211.jpg">
-			<p class="best-text"><a>Clear Toe Leg <br>Heeled Sandals</a></p>
+			<p class="best-text"><a>Clear Heeled Sandals</a></p>
 			<p class="price">21,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5529.jpg">
-			<p class="best-text"><a>Orange Toe Loop <br> Stilletto Sandals</a></p>
+			<p class="best-text"><a>Orange Stilletto Sandals</a></p>
 			<p class="price">20,75$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5534.jpg">
-			<p class="best-text"><a> Point Toe Stilleto <br> Sock Boots</a></p>
+			<p class="best-text"><a> Point Sock Boots</a></p>
 			<p class="price">27,75$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5535.jpg">
-			<p class="best-text"><a>Point Toe <br> Crocodile Boots</a></p>
+			<p class="best-text"><a>Point Crocodile Boots</a></p>
 			<p class="price">31,00$</p>
 		</div>
 		<div class= "items"> 
 			<img class= "item" alt="" src="../img/IMG_5536.jpg">
-			<p class="best-text"><a href="">Lace-up Front <br>Combat Boots</a></p>
+			<p class="best-text"><a href="">Lace-up Front Boots</a></p>
 			<p class="price">32,50$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5538.jpg">
-			<p class="best-text"><a>Lace-up Front <br> Skate Shoes</a></p>
+			<p class="best-text"><a>Lace-up Front Shoes</a></p>
 			<p class="price">30,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5541.jpg">
-			<p class="best-text"><a>Faux Leather <br> Slip-On Sandals</a></p>
+			<p class="best-text"><a>Faux Leather Sandals</a></p>
 			<p class="price">15,00$</p>
 		</div>
 	</div>

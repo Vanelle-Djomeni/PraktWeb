@@ -64,37 +64,37 @@
 		<p class="name">Bottoms</p>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5326.jpg">
-			<p class="best-text"><a>High Waist Skinny <br> Jeans</a></p>
+			<p class="best-text"><a>High Skinny Jeans</a></p>
 			<p class="price">19,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5543.jpg">
-			<p class="best-text"><a>Solid High Waist <br> Pleated Skirt</a></p>
+			<p class="best-text"><a>Solid Pleated Skirt</a></p>
 			<p class="price">14,59$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5548.jpg">
-			<p class="best-text"><a>Zipper Back Wrap <br> Knot skirt</a></p>
+			<p class="best-text"><a>Back Wrap Skirt</a></p>
 			<p class="price">15,99$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5550.jpg">
-			<p class="best-text"><a>Draped Asymmetrical <br> Trim Allover Skirt</a></p>
+			<p class="best-text"><a>Draped Trim Skirt</a></p>
 			<p class="price">13,45$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5551.jpg">
-			<p class="best-text"><a> Slant Pockets Drawstring <br>Waist Sweatpants</a></p>
+			<p class="best-text"><a> Slant Waist Sweatpants</a></p>
 			<p class="price">14,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5553.jpg">
-			<p class="best-text"><a>High Waist Split <br> Hem Jeans</a></p>
+			<p class="best-text"><a>Split Hem Jeans</a></p>
 			<p class="price">25,00$</p>
 		</div>
 		<div class= "items">
 			<img class= "item" alt="" src="../img/IMG_5554.jpg">
-			<p class="best-text"><a>High Waist Pocket <br>Leather Pants</a></p>
+			<p class="best-text"><a>Pocket Leather Pants</a></p>
 			<p class="price">20,00$</p>
 		</div>
 		

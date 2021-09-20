@@ -80,7 +80,7 @@
         				<input class="submitBx" type="submit" value="Login" name="">
         			</div><br>
          			<div class="inputBx">
-       					<p>Don't have an account? <a class="register" href="EvolveRegisterView.jsp">Register here</a></p>
+       					<p>Don't have an account? <a class="register" href="./EvolveRegisterView.jsp">Register here</a></p>
         			</div>
          		</form>
          		<h3 class="logo">Login with social media</h3>
